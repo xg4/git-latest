@@ -1,0 +1,48 @@
+{
+  "name": "@xg4/git",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/xg4/git#readme",
+  "bugs": {
+    "url": "https://github.com/xg4/git/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xg4/git.git"
+  },
+  "license": "MIT",
+  "author": "xg4 <xingor4@gmail.com> (https://github.com/xg4)",
+  "type": "module",
+  "exports": "./index.js",
+  "files": [
+    "index.d.ts",
+    "index.js"
+  ],
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "17.0.3",
+    "@commitlint/config-conventional": "17.0.3",
+    "@semantic-release/changelog": "6.0.1",
+    "@semantic-release/commit-analyzer": "9.0.2",
+    "@semantic-release/git": "10.0.1",
+    "@semantic-release/github": "8.0.4",
+    "@semantic-release/npm": "9.0.1",
+    "@semantic-release/release-notes-generator": "10.0.3",
+    "husky": "8.0.1",
+    "lint-staged": "13.0.3",
+    "prettier": "2.7.1",
+    "semantic-release": "19.0.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
