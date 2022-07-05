@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/xg4/git/compare/v1.1.0...v1.1.1) (2022-07-05)
+
+
+### Bug Fixes
+
+* github release assets ([5f12cbd](https://github.com/xg4/git/commit/5f12cbddd66dc3d7e18c5ee45b0d8a3b4c627566))
+
 # [1.1.0](https://github.com/xg4/git/compare/v1.0.0...v1.1.0) (2022-07-05)
 
 
